@@ -8,5 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/productos', 'Productos::index');
 $routes->get('/productos/libreria', 'Productos::libreria');
-
 $routes->get('/productos/formulario', 'Productos::index');
+$routes->post('/productos/registrar', 'CrudControlers::registrar');

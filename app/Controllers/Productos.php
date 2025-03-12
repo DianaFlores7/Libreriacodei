@@ -15,4 +15,3 @@ namespace App\Controllers;
     echo "ControlleProductos: $producto";
   }
  }
-    
