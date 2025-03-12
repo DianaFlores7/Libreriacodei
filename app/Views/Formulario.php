@@ -129,9 +129,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <nav>
         <ul>
             
-            <li><a href="mostrar_datos.php">Libros</a></li>
-            <li><a href="registrar.php">Registrar</a></li>
-            <li><a href="Editar_libros.php">Editar</a></li>
+             <li><a href="Libros.php">Libros</a></li>
+            <li><a href="Formulario.php">Registrar</a></li>
+            <li><a href="Editar.php">Editar</a></li>
         </ul>
     </nav>
     <div class="contenedor_r">
